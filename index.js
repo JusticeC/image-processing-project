@@ -1,7 +1,7 @@
 function main() {
   var image = new Image();
   image.crossOrigin = '';
-  image.src = "https://i.imgur.com/4AiXzf8.jpg";
+  image.src = "https://i.imgur.com/kkzps3K.jpg";
   image.onload = () => {
     render(image);
   };
